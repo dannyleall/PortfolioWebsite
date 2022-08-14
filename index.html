@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/mco5jvf.css">
 	</head>
 	<body class="is-preload">
 		
@@ -19,19 +20,20 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="">DL</span>
+							<i class="fa-solid fa-code"></i>
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Daniel Leal</h1>
-								<p>Software Engineering Intern</p>
+								<p><span class="auto-type"></span></p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">About</a></li>
-								<li><a href="#work">Experience</a></li>
-								<li><a href="#about">Education</a></li>
+								<li><a href="#About">About</a></li>
+								<li><a href="#Experience">Experience</a></li>
+								<li><a href="#Education">Education</a></li>
+								<li><a href="#Projects">Projects</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -40,15 +42,15 @@
 					<div id="main">
 
 						<!-- About -->
-							<article id="intro">
+							<article id="About">
 								<h2 class="major">About Me</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /><br></span>
-								<p>I am currently an undergraduate Computer Engineer at Florida International University. I have hands-on work experience in fields of data science, machine learning, firmware, and front-end maintenance. If you are interested in learning more about my qualifications, navigate to my <a href="#work">work experience</a> section, or my <a href="#about">education</a> section.</p>
+								<p>I am currently an undergraduate Computer Engineer at Florida International University. I have hands-on work experience in fields of data science, machine learning, firmware, and front-end maintenance. If you are interested in learning more about my qualifications, navigate to my <a href="#Experience">work experience</a> section, or my <a href="#Education">education</a> section.</p>
 								<br><p>I also have an absolutely handsome puppy. If you want to check out some of his videos and social media content, he has a decently popular tiktok <a href="https://www.tiktok.com/@kilothek9?is_from_webapp=1&sender_device=pc">@KiloTheK9</a>.</p>
 							</article>
 
 						<!-- Work -->
-							<article id="work" class="reveal">
+							<article id="Experience" class="reveal">
 								<h2 class="major">Experience</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<h4><em><br>Software Engineering Intern, R&D</em></h4>
@@ -127,7 +129,7 @@
 									</div><br><br>
 
 									<span class="image main reveal"><img src="images/pic05.png" alt="" /></span>
-								<h4 class="reveal"><em><br>Software Developer Intern</em></h4>
+								<h4 class="reveal"><em><br>Software Engineering Intern</em></h4>
 								<h5 class="reveal">May 2021 - December 2021</h5>
 								<li style="font-size: 85%" class="reveal">
 									Coherently work with web and UI/UX engineers on front-end code debugging on over 15+ assignments to uniformly construct the <a href="https://evolvwellness.com/">Evolv Wellness</a> company website.</p>
@@ -197,8 +199,8 @@
 									<br><br><br><br><br>
 							</article>
 
-						<!-- About -->
-							<article id="about">
+						<!-- Education -->
+							<article id="Education">
 								<h2 class="major">Education</h2><br>
 								<span class="image main"><img style="float: right" src="images/pic04.png" alt="" /></span>
 								<br></br><p style="font-size: 20px">Bachelor of Science, Computer Engineering<br><em>August 2020 - December 2022</em></p>
@@ -217,14 +219,93 @@
 								</li><br>
 								<p style="font-size: 85%" class="reveal"> Relevant Coursework: Physics w/ Calculus, General Chemistry, Engineering Design, and Computer Science.</p>
 							
-								<br><br><br><br>
+								<br><br><br><br><br><br><br><br><br>
+							</article>
+
+							<!-- Portfolio -->
+							<article id="Projects">
+								<h2 class="major">Projects</h2>
+								<span class="image main"><br></span>
+								<div class="portfolios">
+									<div class="portfolio-item">
+										<div class="image">
+											<img src="images/pic09.jpg" alt="">
+										</div>
+										<div class="hover-item">
+											<h4>Source Code</h4>
+											<div class="icons">
+												<a href="https://github.com/dannyleall/StockMarketTraderBot" class="icon">
+													<i class="fab fa-github"></i>
+												</a>
+											</div>
+										</div>																
+									</div>
+
+									<div class="portfolio-item">
+										<p style="font-size: 25px;"><strong><b>Stock Market Trader Bot</b></strong><p style="font-size: 18px">(In-Progress)</p></p>
+										<p style="font-size: 18px;"><strong>Purpose:</strong> Accurately predict stocks and provide profitability in over 60% of trades.</p>
+										<p style="font-size: 18px;"><strong>Tools:</strong> Scikit-Learn (KNN & SVM), Dyna-Q Reinforcement Learning, and Optimization Algorithms.</p>
+										<p style="font-size: 18px;"><strong>Programming Language:</strong> Python</p>
+									</div>
+
+
+
+									<div class="portfolio-item">
+										<div class="image">
+											<img src="images/pic10.jpg" alt="">
+										</div>
+										<div class="hover-item">
+											<h4>Source Code</h4>
+											<div class="icons">
+												<a href="https://github.com/dannyleall/DemoSmartFridge" class="icon">
+													<i class="fab fa-github"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="portfolio-item">
+										<p style="font-size: 25px;"><strong><b>Mini Smart Fridge</b></strong></p>
+										<p style="font-size: 18px;"><strong>Purpose:</strong> Identify if a grocery item is missing, 
+											automatically order the item via Amazon, and notify user via email.</p>
+										<p style="font-size: 18px;"><strong>Tools:</strong> OpenCV, Raspberry Pi4, and an Infrared Camera.</p>
+										<p style="font-size: 18px;"><strong>Programming Language:</strong> Python</p>
+									</div>
+
+
+									
+									<div class="portfolio-item">
+										<div class="image">
+											<img src="images/pic11.jpg" alt="">
+										</div>
+										<div class="hover-item">
+											<h4>Source Code</h4>
+											<div class="icons">
+												<a href="https://github.com/dannyleall/ThreeChannelEqualizer" class="icon">
+													<i class="fab fa-github"></i>
+												</a>
+											</div>
+										</div>										
+									</div>
+
+									<div class="portfolio-item">
+										
+										<p style="font-size: 25px;"><strong><b>Three-Channel Equalizer</b></strong></p>
+										<p style="font-size: 18px;"><strong>Purpose:</strong> Serve as a miniature DJ system that can
+											effectively adjust inputted audio.</p>
+										<p style="font-size: 18px;"><strong>Tools:</strong> MATLAB and Electronic Filters.</p>
+										<p style="font-size: 18px;"><strong>Programming Language:</strong> MATLAB</p>
+									</div>
+
+
+								</div>
 							</article>
 							
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright"></p>
+						<p class="copyright">© Created by Daniel Leal</p>
 					</footer>
 
 			</div>
@@ -233,12 +314,24 @@
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+			
+			<script>
+				var typed = new Typed(".auto-type", {
+					strings: ["^1000Software Engineering Intern^1000", "Dog Lover^1000", "Python Enthusiast^1000"],
+					typeSpeed: 100,
+					backSpeed: 100,
+					loop:true
+				})
+
+			</script>
+			
 			<script src="js/jquery.min.js"></script>
 			<script src="js/browser.min.js"></script>
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
-
+			<script src="https://kit.fontawesome.com/89e281baaa.js" crossorigin="anonymous"></script>
 			<script src="js/reveal.js"></script>
 	</body>
 </html>
