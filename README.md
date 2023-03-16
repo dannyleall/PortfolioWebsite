@@ -1,5 +1,5 @@
 # PortfolioWebsite
-This is my current portfolio code that is still in construction (Pending projects section). Some files are purposely excluded to avoid forking.
+This is my current portfolio code. Some files are purposely excluded to avoid forking.
 
 ## Live Demo
 www.lealdaniel.net
